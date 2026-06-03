@@ -17,6 +17,7 @@ out
 build
 .gradle
 local.properties
+src/generated/resources/.cache/
 
 # other
 eclipse
