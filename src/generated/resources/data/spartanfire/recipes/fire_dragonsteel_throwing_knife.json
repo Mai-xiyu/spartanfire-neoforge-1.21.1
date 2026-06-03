@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "throwing_knife"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:throwing_knife",
+  "key": {
+    "#": {
+      "tag": "c:ingots/fire_dragonsteel"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    "|#"
+  ],
+  "result": {
+    "item": "spartanfire:fire_dragonsteel_throwing_knife"
+  }
+}

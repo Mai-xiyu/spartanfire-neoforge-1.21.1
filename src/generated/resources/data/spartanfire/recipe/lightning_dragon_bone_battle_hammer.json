@@ -1,0 +1,24 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:battle_hammer",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:dragon_bone_battle_hammer"
+                        },
+                        {
+                            "item":  "iceandfire:lightning_dragon_blood"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:lightning_dragon_bone_battle_hammer"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "battle_hammer"
+                                                 ]
+                                }
+                            ]
+}

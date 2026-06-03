@@ -1,0 +1,39 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:battleaxe",
+    "key":  {
+                "#":  {
+                          "tag":  "c:chitin_jungle"
+                      },
+                "/":  {
+                          "tag":  "c:bones/wither"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    "###",
+                    "#/#",
+                    " | "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:jungle_myrmex_chitin_battleaxe"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "battleaxe"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:chitin_jungle"
+                                              }
+                                }
+                            ]
+}

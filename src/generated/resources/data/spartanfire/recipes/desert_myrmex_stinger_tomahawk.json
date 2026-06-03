@@ -1,0 +1,24 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "tomahawk"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:tomahawk",
+  "ingredients": [
+    {
+      "item": "spartanfire:desert_myrmex_chitin_tomahawk"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_stinger_tomahawk",
+    "nbt": "{Damage:0}"
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:scythe",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:jungle_myrmex_chitin_scythe"
+                        },
+                        {
+                            "tag":  "c:myrmex_stingers"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:jungle_myrmex_stinger_scythe"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "scythe"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:myrmex_stingers"
+                                              }
+                                }
+                            ]
+}

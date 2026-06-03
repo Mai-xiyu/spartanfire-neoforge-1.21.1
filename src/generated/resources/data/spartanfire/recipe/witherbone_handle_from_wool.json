@@ -1,0 +1,26 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "group":  "spartanfire:witherbone_handle",
+    "ingredients":  [
+                        {
+                            "tag":  "c:bones/wither"
+                        },
+                        {
+                            "tag":  "c:bones/wither"
+                        },
+                        {
+                            "tag":  "c:bones/wither"
+                        },
+                        {
+                            "tag":  "c:bones/wither"
+                        },
+                        {
+                            "tag":  "minecraft:wool"
+                        }
+                    ],
+    "result":  {
+                   "count":  4,
+                   "id":  "spartanfire:witherbone_handle"
+               }
+}

@@ -1,0 +1,31 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:flanged_mace",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:desert_myrmex_chitin_flanged_mace"
+                        },
+                        {
+                            "tag":  "c:myrmex_stingers"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:desert_myrmex_stinger_flanged_mace"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "flanged_mace"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:myrmex_stingers"
+                                              }
+                                }
+                            ]
+}

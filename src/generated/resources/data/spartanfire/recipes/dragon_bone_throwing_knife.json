@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "throwing_knife"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:throwing_knife",
+  "key": {
+    "#": {
+      "tag": "c:bones/dragon"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    "|#"
+  ],
+  "result": {
+    "item": "spartanfire:dragon_bone_throwing_knife"
+  }
+}

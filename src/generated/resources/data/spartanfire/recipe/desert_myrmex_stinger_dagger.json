@@ -1,0 +1,31 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:dagger",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:desert_myrmex_chitin_dagger"
+                        },
+                        {
+                            "tag":  "c:myrmex_stingers"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:desert_myrmex_stinger_dagger"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "dagger"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:myrmex_stingers"
+                                              }
+                                }
+                            ]
+}

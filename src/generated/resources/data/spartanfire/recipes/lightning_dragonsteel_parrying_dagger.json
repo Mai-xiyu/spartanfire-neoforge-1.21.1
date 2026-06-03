@@ -1,0 +1,27 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "parrying_dagger"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:parrying_dagger",
+  "key": {
+    "#": {
+      "tag": "c:ingots/lightning_dragonsteel"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    " #",
+    "#|"
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragonsteel_parrying_dagger"
+  }
+}

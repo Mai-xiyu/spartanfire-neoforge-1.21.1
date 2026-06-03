@@ -1,0 +1,26 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "javelin"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:javelin",
+  "key": {
+    "#": {
+      "tag": "c:chitin_desert"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "pattern": [
+    "/#"
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_chitin_javelin"
+  }
+}

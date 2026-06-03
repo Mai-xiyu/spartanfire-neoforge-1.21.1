@@ -1,0 +1,31 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:longsword",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:desert_myrmex_chitin_longsword"
+                        },
+                        {
+                            "tag":  "c:myrmex_stingers"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:desert_myrmex_stinger_longsword"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "longsword"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:myrmex_stingers"
+                                              }
+                                }
+                            ]
+}

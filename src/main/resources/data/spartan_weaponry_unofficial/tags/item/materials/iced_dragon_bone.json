@@ -1,0 +1,28 @@
+﻿{
+    "values":  [
+                   "spartanfire:iced_dragon_bone_dagger",
+                   "spartanfire:iced_dragon_bone_parrying_dagger",
+                   "spartanfire:iced_dragon_bone_longsword",
+                   "spartanfire:iced_dragon_bone_katana",
+                   "spartanfire:iced_dragon_bone_saber",
+                   "spartanfire:iced_dragon_bone_rapier",
+                   "spartanfire:iced_dragon_bone_greatsword",
+                   "spartanfire:iced_dragon_bone_battle_hammer",
+                   "spartanfire:iced_dragon_bone_warhammer",
+                   "spartanfire:iced_dragon_bone_spear",
+                   "spartanfire:iced_dragon_bone_halberd",
+                   "spartanfire:iced_dragon_bone_pike",
+                   "spartanfire:iced_dragon_bone_lance",
+                   "spartanfire:iced_dragon_bone_longbow",
+                   "spartanfire:iced_dragon_bone_heavy_crossbow",
+                   "spartanfire:iced_dragon_bone_throwing_knife",
+                   "spartanfire:iced_dragon_bone_tomahawk",
+                   "spartanfire:iced_dragon_bone_javelin",
+                   "spartanfire:iced_dragon_bone_boomerang",
+                   "spartanfire:iced_dragon_bone_battleaxe",
+                   "spartanfire:iced_dragon_bone_flanged_mace",
+                   "spartanfire:iced_dragon_bone_glaive",
+                   "spartanfire:iced_dragon_bone_quarterstaff",
+                   "spartanfire:iced_dragon_bone_scythe"
+               ]
+}

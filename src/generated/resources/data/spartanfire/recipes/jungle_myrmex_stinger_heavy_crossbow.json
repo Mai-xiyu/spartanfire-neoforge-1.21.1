@@ -1,0 +1,24 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "heavy_crossbow"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:heavy_crossbow",
+  "ingredients": [
+    {
+      "item": "spartanfire:jungle_myrmex_chitin_heavy_crossbow"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_stinger_heavy_crossbow",
+    "nbt": "{Damage:0}"
+  }
+}

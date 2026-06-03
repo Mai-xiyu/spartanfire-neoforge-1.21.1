@@ -1,0 +1,27 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "spear"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:spear",
+  "key": {
+    "#": {
+      "tag": "c:chitin_jungle"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "pattern": [
+    "#",
+    "/"
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_chitin_spear"
+  }
+}

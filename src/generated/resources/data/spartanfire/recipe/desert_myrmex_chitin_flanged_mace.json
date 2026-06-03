@@ -1,0 +1,39 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:flanged_mace",
+    "key":  {
+                "#":  {
+                          "tag":  "c:chitin_desert"
+                      },
+                "/":  {
+                          "tag":  "c:bones/wither"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    " ##",
+                    " /#",
+                    "|  "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:desert_myrmex_chitin_flanged_mace"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "flanged_mace"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:chitin_desert"
+                                              }
+                                }
+                            ]
+}

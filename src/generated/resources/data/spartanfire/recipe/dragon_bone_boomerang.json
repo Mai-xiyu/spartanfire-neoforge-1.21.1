@@ -1,0 +1,29 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:boomerang",
+    "key":  {
+                "#":  {
+                          "tag":  "c:bones/dragon"
+                      },
+                "P":  {
+                          "tag":  "minecraft:planks"
+                      }
+            },
+    "pattern":  [
+                    "#PP",
+                    "P  ",
+                    "P  "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:dragon_bone_boomerang"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "boomerang"
+                                                 ]
+                                }
+                            ]
+}

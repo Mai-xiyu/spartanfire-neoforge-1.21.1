@@ -1,0 +1,31 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "flanged_mace"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:flanged_mace",
+  "key": {
+    "#": {
+      "tag": "c:bones/dragon"
+    },
+    "/": {
+      "tag": "c:bones/wither"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    " ##",
+    " /#",
+    "|  "
+  ],
+  "result": {
+    "item": "spartanfire:dragon_bone_flanged_mace"
+  }
+}

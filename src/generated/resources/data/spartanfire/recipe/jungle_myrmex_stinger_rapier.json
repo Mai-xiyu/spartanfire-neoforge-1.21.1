@@ -1,0 +1,31 @@
+﻿{
+    "type":  "minecraft:crafting_shapeless",
+    "group":  "spartan_weaponry_unofficial:rapier",
+    "ingredients":  [
+                        {
+                            "item":  "spartanfire:jungle_myrmex_chitin_rapier"
+                        },
+                        {
+                            "tag":  "c:myrmex_stingers"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:jungle_myrmex_stinger_rapier"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "rapier"
+                                                 ]
+                                },
+                                {
+                                    "type":  "neoforge:not",
+                                    "value":  {
+                                                  "type":  "neoforge:tag_empty",
+                                                  "tag":  "c:myrmex_stingers"
+                                              }
+                                }
+                            ]
+}

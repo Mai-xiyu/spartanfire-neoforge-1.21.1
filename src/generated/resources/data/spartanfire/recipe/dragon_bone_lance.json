@@ -1,0 +1,32 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:lance",
+    "key":  {
+                "#":  {
+                          "tag":  "c:bones/dragon"
+                      },
+                "/":  {
+                          "item":  "spartanfire:witherbone_pole"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    "  #",
+                    "#/ ",
+                    "|# "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:dragon_bone_lance"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "lance"
+                                                 ]
+                                }
+                            ]
+}

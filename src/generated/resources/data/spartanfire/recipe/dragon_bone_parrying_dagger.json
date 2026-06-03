@@ -1,0 +1,28 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:parrying_dagger",
+    "key":  {
+                "#":  {
+                          "tag":  "c:bones/dragon"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    " #",
+                    "#|"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:dragon_bone_parrying_dagger"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "parrying_dagger"
+                                                 ]
+                                }
+                            ]
+}

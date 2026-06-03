@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "scythe"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:scythe",
+  "key": {
+    "#": {
+      "tag": "c:ingots/ice_dragonsteel"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "pattern": [
+    "## ",
+    "  #",
+    " / "
+  ],
+  "result": {
+    "item": "spartanfire:ice_dragonsteel_scythe"
+  }
+}

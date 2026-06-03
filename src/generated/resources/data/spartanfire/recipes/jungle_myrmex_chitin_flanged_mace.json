@@ -1,0 +1,31 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "flanged_mace"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:flanged_mace",
+  "key": {
+    "#": {
+      "tag": "c:chitin_jungle"
+    },
+    "/": {
+      "tag": "c:bones/wither"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    " ##",
+    " /#",
+    "|  "
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_chitin_flanged_mace"
+  }
+}

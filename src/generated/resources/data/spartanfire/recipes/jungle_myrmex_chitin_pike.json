@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "pike"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:pike",
+  "key": {
+    "#": {
+      "tag": "c:chitin_jungle"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "pattern": [
+    "#",
+    "/",
+    "/"
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_chitin_pike"
+  }
+}

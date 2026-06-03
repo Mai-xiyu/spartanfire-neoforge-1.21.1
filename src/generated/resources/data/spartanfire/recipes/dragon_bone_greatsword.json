@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "greatsword"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:greatsword",
+  "key": {
+    "#": {
+      "tag": "c:bones/dragon"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    " # ",
+    "###",
+    "#|#"
+  ],
+  "result": {
+    "item": "spartanfire:dragon_bone_greatsword"
+  }
+}

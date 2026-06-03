@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartan_weaponry_unofficial:longbow",
+  "key": {
+    "#": {
+      "tag": "c:chitin_jungle"
+    },
+    "/": {
+      "tag": "c:bones/wither"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    },
+    "~": {
+      "tag": "c:strings"
+    }
+  },
+  "pattern": [
+    "|/#",
+    "/ ~",
+    "#~~"
+  ],
+  "result": {
+    "count": 1,
+    "id": "spartanfire:jungle_myrmex_chitin_longbow"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "longbow"
+      ]
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:chitin_jungle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "boomerang"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:boomerang",
+  "key": {
+    "#": {
+      "tag": "c:ingots/ice_dragonsteel"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "#PP",
+    "P  ",
+    "P  "
+  ],
+  "result": {
+    "item": "spartanfire:ice_dragonsteel_boomerang"
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:spear",
+    "key":  {
+                "#":  {
+                          "tag":  "c:ingots/lightning_dragonsteel"
+                      },
+                "/":  {
+                          "item":  "spartanfire:witherbone_pole"
+                      }
+            },
+    "pattern":  [
+                    "#",
+                    "/"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:lightning_dragonsteel_spear"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "spear"
+                                                 ]
+                                }
+                            ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "spartanfire:witherbone_pole",
+  "ingredients": [
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:leathers"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "spartanfire:witherbone_pole"
+  }
+}

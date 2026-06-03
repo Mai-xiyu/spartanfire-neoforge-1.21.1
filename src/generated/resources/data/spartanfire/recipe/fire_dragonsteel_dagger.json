@@ -1,0 +1,28 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:dagger",
+    "key":  {
+                "#":  {
+                          "tag":  "c:ingots/fire_dragonsteel"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    "#",
+                    "|"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:fire_dragonsteel_dagger"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "dagger"
+                                                 ]
+                                }
+                            ]
+}

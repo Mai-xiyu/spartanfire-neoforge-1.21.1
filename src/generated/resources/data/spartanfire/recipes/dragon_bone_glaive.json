@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "glaive"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:glaive",
+  "key": {
+    "#": {
+      "tag": "c:bones/dragon"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "pattern": [
+    " #",
+    " #",
+    " /"
+  ],
+  "result": {
+    "item": "spartanfire:dragon_bone_glaive"
+  }
+}

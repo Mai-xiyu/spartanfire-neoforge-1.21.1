@@ -1,0 +1,22 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "spartanfire:witherbone_pole",
+  "key": {
+    "#": {
+      "tag": "c:string"
+    },
+    "|": {
+      "tag": "c:bones/wither"
+    }
+  },
+  "pattern": [
+    "| ",
+    "|#",
+    "| "
+  ],
+  "result": {
+    "item": "spartanfire:witherbone_pole"
+  },
+  "show_notification": true
+}

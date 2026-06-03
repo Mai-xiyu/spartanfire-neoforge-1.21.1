@@ -1,0 +1,45 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'SpartanFire-neoforge-1.21.1'
+
+def localProperties = new Properties()
+def localPropertiesFile = file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { localProperties.load(it) }
+}
+
+def localBuild = { String propertyName, String environmentName ->
+    def configuredPath = localProperties.getProperty(propertyName) ?: System.getenv(environmentName)
+    if (configuredPath == null || configuredPath.isBlank()) {
+        return null
+    }
+
+    def buildDir = file(configuredPath)
+    return buildDir.exists() ? buildDir : null
+}
+
+def iceAndFireCeBuild = localBuild('localIceAndFireCePath', 'ICE_AND_FIRE_CE_PATH')
+if (iceAndFireCeBuild != null) {
+    includeBuild(iceAndFireCeBuild) {
+        dependencySubstitution {
+            substitute module('com.iafenvoy.iceandfire:iceandfire') using project(':')
+        }
+    }
+}
+
+def spartanWeaponryBuild = localBuild('localSpartanWeaponryPath', 'SPARTAN_WEAPONRY_UNOFFICIAL_PATH')
+if (spartanWeaponryBuild != null) {
+    includeBuild(spartanWeaponryBuild) {
+        dependencySubstitution {
+            substitute module('org.xiyu.spartanweaponryunofficial:spartan_weaponry_unofficial') using project(':')
+        }
+    }
+}

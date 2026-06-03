@@ -1,0 +1,29 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:longsword",
+    "key":  {
+                "#":  {
+                          "tag":  "c:ingots/ice_dragonsteel"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    " # ",
+                    " # ",
+                    "#|#"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:ice_dragonsteel_longsword"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "longsword"
+                                                 ]
+                                }
+                            ]
+}

@@ -1,0 +1,38 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "spartan_weaponry_unofficial:heavy_crossbow",
+    "key":  {
+                "#":  {
+                          "tag":  "c:ingots/ice_dragonsteel"
+                      },
+                "D":  {
+                          "item":  "minecraft:bow"
+                      },
+                "H":  {
+                          "item":  "minecraft:tripwire_hook"
+                      },
+                "P":  {
+                          "tag":  "minecraft:planks"
+                      },
+                "|":  {
+                          "item":  "spartanfire:witherbone_handle"
+                      }
+            },
+    "pattern":  [
+                    "#D#",
+                    "PHP",
+                    " | "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "spartanfire:ice_dragonsteel_heavy_crossbow"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "spartan_weaponry_unofficial:type_disabled",
+                                    "disabled":  [
+                                                     "heavy_crossbow"
+                                                 ]
+                                }
+                            ]
+}

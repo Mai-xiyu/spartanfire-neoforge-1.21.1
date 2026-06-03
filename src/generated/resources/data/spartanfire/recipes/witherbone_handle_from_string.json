@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "spartanfire:witherbone_handle",
+  "ingredients": [
+    {
+      "tag": "c:bones/wither"
+    },
+    {
+      "tag": "c:string"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:witherbone_handle"
+  }
+}

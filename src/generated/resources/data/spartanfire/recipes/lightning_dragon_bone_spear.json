@@ -1,0 +1,24 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "spear"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:spear",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_spear"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragon_bone_spear",
+    "nbt": "{Damage:0}"
+  }
+}

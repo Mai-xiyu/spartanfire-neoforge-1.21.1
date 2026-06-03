@@ -1,0 +1,28 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartan_weaponry_unofficial:type_disabled",
+      "disabled": [
+        "rapier"
+      ]
+    }
+  ],
+  "group": "spartan_weaponry_unofficial:rapier",
+  "key": {
+    "#": {
+      "tag": "c:ingots/lightning_dragonsteel"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "pattern": [
+    "  #",
+    "## ",
+    "|# "
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragonsteel_rapier"
+  }
+}
